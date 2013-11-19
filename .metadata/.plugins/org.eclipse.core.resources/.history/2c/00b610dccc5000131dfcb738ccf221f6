@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Dinesh Bangara</title>
+  <title>Foundation 4</title>
+
+  
   <link rel="stylesheet" href="css/foundation.css">
+  
+
   <script src="js/vendor/custom.modernizr.js"></script>
+
 </head>
 <body>
 

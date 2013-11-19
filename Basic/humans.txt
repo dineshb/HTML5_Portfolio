@@ -6,3 +6,23 @@
   Standards: HTML5, CSS3
   Components: jQuery, Orbit, Reveal
   Software: Coda, Textmate, Git
+
+
+                            
+/* Just Me */
+
+                            
+Dinesh Bangara
+
+A developer, designer, and creative thinker. A consumate student always looking for the opportunity to learn, as (hopefully) evidenced
+by this site getting better and more useable over time.
+
+Write me if you wish: dineshbangara@gmail.com
+Twitter: @itzmeDino
+
+
+/* Say Thanks! */
+
+If I've used your code in a .js or .css snippet, the Copyright is obvioulsy unadultered but I'd like to say thank you for 
+putting it ou there!
+
