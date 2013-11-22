@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dinesh Bangara - Content Producer and Designer</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="/js/vendor/jquery.js"></script>
+<script src="/js/foundation/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+</head>
+<body>
+<nav role=”navigation”>
+	<ul>
+	<li>
+		<a href="#about" id "about_icon" class>
+		<span class="icon-about"></span></a>
+	</li>
+	<li><a href="#top" id "top_icon" class>
+		<span class="icon-top"></span></a>
+	</li>
+	<li><a href="#up" id "up_icon" class>
+		<span class="icon-up"></span></a>
+	</li>
+	<li><a href="#down" id "down_icon" class>
+		<span class="icon-down"></span></a>
+	</li>
+	</ul>
+</nav>
+<div class="About Dropdown">
+	<div class="row">
+		<div class="large-6 columns">
+			<h2>I hope you've found the right place</h2>
+			<h3>I am Dinesh Bangara Internet Content Creator and Product Designer.</h3>
+			<p>(symobl) Get the details</p>
+		</div>
+		<div class="large-6 columns">
+			<h2>Socialize</h2>
+			<li>@itzmeDino</li>
+			<li>/dineshbangara</li>
+			<li>dineshbangara@gmail.com</li>
+			<li>1  (626) 470-3724</li>
+			<li> link up</li>
+			</div>
+	</div>
+</div>
+
+
+
+
+	<div class="row">
+		<div class="large-12 columns">
+			<h3>Portfolio Piece 1</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-12">
+			<img src="/img/peace.png" title="Portfolio 1 Test">
+		</div>
+	</div>
+	
+	
+	
+	
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  -->
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
