@@ -21,7 +21,6 @@ htmlTagPairOccurrenceIndication=true
 htmlTagPairOccurrenceIndicationColor=127,127,127
 htmlTagPairOccurrenceIndicationHighlighting=false
 htmlTagPairOccurrenceIndicationTextStyle=BOX
-lineNumberRuler=true
 occurrenceIndicationColor=180,213,255
 overviewRuler_migration=migrated_3.1
 pydevOccurrenceHighlighting=false

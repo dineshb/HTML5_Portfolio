@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="49" version="2.0">
 <workbenchAdvisor/>
-<window height="940" width="1200" x="18" y="168">
+<window height="1181" width="1920" x="0" y="19">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,8 +17,11 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="70" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.text" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -27,22 +30,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.html" name="index.html" partName="index.html" path="/Users/Greybox/Projects/HTML5_Portfolio/Basic/index.html" title="index.html" tooltip="Basic/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Basic/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.html" name="404.html" partName="404.html" path="/Users/Greybox/Projects/HTML5_Portfolio/Basic/404.html" title="404.html" tooltip="Basic/404.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Basic/404.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="526" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -67,6 +58,10 @@
 <view id="com.aptana.explorer.view" partName="App Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="Basic">
 <project name="Basic">
+<expanded>
+<element path="/Basic/css"/>
+<element path="/Basic/img"/>
+</expanded>
 <selection>
 <element path="/Basic/index.html"/>
 </selection>
@@ -77,7 +72,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.editor.html" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.explorer.view" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -151,9 +146,9 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19966443" ratioLeft="238" ratioRight="954" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.12467261" ratioLeft="238" ratioRight="1671" relationship="2" relative="left"/>
 <info folder="true" part="terminalArea" ratio="0.75" ratioLeft="663" ratioRight="221" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="com.aptana.terminal.views.terminal" label="LabelNotFound"/>
 <page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
@@ -179,32 +174,12 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Basic/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Basic/404.html"/>
-</editors>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="404.html" index="1">
-<position info="not_deleted" x="526" y="0"/>
-</item>
-<item active="true" historyLabel="index.html" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -217,8 +192,35 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="index.html" tooltip="Basic/index.html">
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="index.html" tooltip="Basic/index.html">
 <persistable path="/Basic/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="main.css" tooltip="Basic/css/main.css">
+<persistable path="/Basic/css/main.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="foundation.css" tooltip="Basic/css/foundation.css">
+<persistable path="/Basic/css/foundation.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="peace.png" tooltip="Basic/img/peace.png">
+<persistable path="/Basic/img/peace.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="normalize.css" tooltip="Basic/css/normalize.css">
+<persistable path="/Basic/css/normalize.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="PortfolioPiece1.png" tooltip="Basic/img/PortfolioPiece1.png">
+<persistable path="/Basic/img/PortfolioPiece1.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="apple-touch-icon-precomposed.png" tooltip="Basic/apple-touch-icon-precomposed.png">
+<persistable path="/Basic/apple-touch-icon-precomposed.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="favicon.ico" tooltip="Basic/favicon.ico">
+<persistable path="/Basic/favicon.ico"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.text" name="humans.txt" tooltip="Basic/humans.txt">
+<persistable path="/Basic/humans.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.text" name="robots.txt" tooltip="Basic/robots.txt">
+<persistable path="/Basic/robots.txt"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="404.html" tooltip="Basic/404.html">
 <persistable path="/Basic/404.html"/>
