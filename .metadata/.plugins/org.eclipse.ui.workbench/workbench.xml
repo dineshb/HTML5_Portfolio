@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="49" version="2.0">
+<workbench progressCount="24" version="2.0">
 <workbenchAdvisor/>
-<window height="1181" width="1920" x="0" y="19">
+<window height="1181" maximized="true" width="1920" x="0" y="19">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,11 +17,12 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="70" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.js" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.text" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -30,10 +31,16 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="com.aptana.editor.html" name="index.html" partName="index.html" path="/Users/Greybox/Projects/HTML5_Portfolio/Basic/index.html" title="index.html" tooltip="Basic/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Basic/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3022" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -55,24 +62,11 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="com.aptana.explorer.view" partName="App Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="Basic">
-<project name="Basic">
-<expanded>
-<element path="/Basic/css"/>
-<element path="/Basic/img"/>
-</expanded>
-<selection>
-<element path="/Basic/index.html"/>
-</selection>
-</project>
-</viewState>
-</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.explorer.view" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -112,7 +106,6 @@
 <new_wizard_action id="org.radrails.rails.ui.projectWizard"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="com.aptana.explorer.view"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.aptana.samples.ui.SamplesView"/>
@@ -129,13 +122,12 @@
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="com.aptana.explorer.view" appearance="2" expanded="2">
-<page content="com.aptana.explorer.view" label="App Explorer"/>
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.aptana.explorer.view" label="LabelNotFound"/>
 <page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -174,12 +166,174 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Basic/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/Basic/css/main.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/Basic/css/foundation.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/Basic/css/normalize.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Basic/js/foundation/foundation.reveal.js"/>
+</editors>
+<item historyLabel="normalize.css" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1966" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1746" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1362" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1746" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1746" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1921" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1746" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1746" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1919" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1727" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1962" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1682" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1921" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1669" y="40"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1690" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="0" y="949"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="15" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="foundation.reveal.js" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="foundation.css" index="2">
+<position info="not_deleted" x="80693" y="5"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1810" y="0"/>
+</item>
+<item historyLabel="foundation.css" index="2">
+<position info="not_deleted" x="80841" y="7"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1803" y="0"/>
+</item>
+<item historyLabel="foundation.css" index="2">
+<position info="not_deleted" x="80841" y="7"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1803" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="foundation.reveal.js" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="foundation.css" index="2">
+<position info="not_deleted" x="80841" y="7"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1966" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1803" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="3022" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1966" y="0"/>
+</item>
+<item historyLabel="foundation.reveal.js" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="foundation.css" index="2">
+<position info="not_deleted" x="80841" y="7"/>
+</item>
+<item historyLabel="foundation.reveal.js" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.css" index="1">
+<position info="not_deleted" x="1966" y="0"/>
+</item>
+<item active="true" historyLabel="index.html" index="0">
+<position info="not_deleted" x="3022" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1a0d111"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -192,20 +346,26 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="index.html" tooltip="Basic/index.html">
-<persistable path="/Basic/index.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="main.css" tooltip="Basic/css/main.css">
-<persistable path="/Basic/css/main.css"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="index.html" tooltip="CompassPortfolio/index.html">
+<persistable path="/CompassPortfolio/index.html"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="foundation.css" tooltip="Basic/css/foundation.css">
 <persistable path="/Basic/css/foundation.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="peace.png" tooltip="Basic/img/peace.png">
-<persistable path="/Basic/img/peace.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="foundation.reveal.js" tooltip="Basic/js/foundation/foundation.reveal.js">
+<persistable path="/Basic/js/foundation/foundation.reveal.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="index.html" tooltip="Basic/index.html">
+<persistable path="/Basic/index.html"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="normalize.css" tooltip="Basic/css/normalize.css">
 <persistable path="/Basic/css/normalize.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="main.css" tooltip="Basic/css/main.css">
+<persistable path="/Basic/css/main.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="peace.png" tooltip="Basic/img/peace.png">
+<persistable path="/Basic/img/peace.png"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="PortfolioPiece1.png" tooltip="Basic/img/PortfolioPiece1.png">
 <persistable path="/Basic/img/PortfolioPiece1.png"/>

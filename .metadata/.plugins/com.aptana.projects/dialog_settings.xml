@@ -2,4 +2,6 @@
 <section name="Workbench">
 	<section name="BasicNewProjectResourceWizard">
 	</section>
+	<section name="PromoteToProjectWizard">
+	</section>
 </section>
